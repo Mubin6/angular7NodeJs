@@ -1,7 +1,8 @@
 export interface Issue {
-  title: any,
-  responsible: any,
-  description: any,
-  severity: any,
-  status?: any
+  id?: string,
+  title: string,
+  responsible: string,
+  description: string,
+  severity: string,
+  status?: string
 }
